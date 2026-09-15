@@ -1,0 +1,38 @@
+# EVENT Coffee — Telegram Brand Assets & Emojis Registry
+
+مرجع رسمی هویت بصری، کاستوم ایموجی‌ها (Custom Emojis) و استیکرهای برند **EVENT Coffee** برای استفاده در ربات‌های تلگرام (پایتون، aiogram، grammY و Cloudflare Workers).
+
+## 📊 جدول کاستوم ایموجی‌ها و شناسه‌ها
+
+| ردیف | عنوان / کاربرد | دسته‌بندی | پک منبع (Set Name) | ایموجی پایه | Custom Emoji ID | نمونه کد HTML |
+|:---:|:---|:---|:---|:---:|:---:|:---|
+| ۱ | دانه قهوه | محصولات / کاتالوگ | `t_me_Grigoryann_by_fStikBot` | 🧋 | `5467694131759305672` | `<tg-emoji emoji-id="5467694131759305672">🧋</tg-emoji>` |
+| ۲ | دانه قهوه بزرگ‌تر | محصولات / دسته‌بندی | `Lkhgfdert` | ☕ | `5425042430745397139` | `<tg-emoji emoji-id="5425042430745397139">☕</tg-emoji>` |
+| ۳ | دانه قهوه در حال ریختن | انیمیشن / لودینگ / فاکتور | `JellySweets` | ☕️ | `5296261422672525277` | `<tg-emoji emoji-id="5296261422672525277">☕️</tg-emoji>` |
+| ۴ | دانه قهوه یک‌دسته | بسته‌بندی / برندینگ | `mixvintage` | ✨ | `5048825264373498992` | `<tg-emoji emoji-id="5048825264373498992">✨</tg-emoji>` |
+| ۵ | تیک آبی چرخشی | وضعیت سفارش / پردازش | `Statusvideobytaraxd` | 💙 | `6104631352190043951` | `<tg-emoji emoji-id="6104631352190043951">💙</tg-emoji>` |
+| ۶ | تیک سبز متحرک | تأیید پرداخت / موفقیت | `Borzyy_by_fStikBot` | 💳 | `5931311490307986699` | `<tg-emoji emoji-id="5931311490307986699">💳</tg-emoji>` |
+| ۷ | تخفیف ۲۰ درصد | پروموشن / کد تخفیف | `Happy_new2025` | 🤑 | `5373064599090255697` | `<tg-emoji emoji-id="5373064599090255697">🤑</tg-emoji>` |
+| ۸ | استیکر خرید | سبد خرید / تسویه‌حساب | `iranNewz` | 💸 | `5839260144902344766` | `<tg-emoji emoji-id="5839260144902344766">💸</tg-emoji>` |
+| ۹ | متن تخفیف ویژه | بنر / کمپین‌های فروش | `iranNewz` | 📉 | `5839200234403533703` | `<tg-emoji emoji-id="5839200234403533703">📉</tg-emoji>` |
+
+## 💻 نمونه استفاده در کدها
+
+### دکمه‌های شیشه‌ای و کیبورد ثابت با `icon_custom_emoji_id`:
+```python
+InlineKeyboardButton(
+    text="کاتالوگ محصولات",
+    icon_custom_emoji_id="5425042430745397139",
+    callback_data="catalog"
+)
+```
+
+### در فریم‌ورک TypeScript (grammY / Cloudflare Workers):
+```typescript
+import { InlineKeyboard } from "grammy";
+
+const keyboard = new InlineKeyboard().text({
+  text: "سبد خرید",
+  icon_custom_emoji_id: "5839260144902344766"
+}, "cart");
+```

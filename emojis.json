@@ -1,0 +1,65 @@
+{
+  "coffee_bean": {
+    "title": "دانه قهوه",
+    "category": "catalog",
+    "set_name": "t_me_Grigoryann_by_fStikBot",
+    "fallback_emoji": "🧋",
+    "custom_emoji_id": "5467694131759305672"
+  },
+  "coffee_bean_large": {
+    "title": "دانه قهوه بزرگ‌تر",
+    "category": "catalog",
+    "set_name": "Lkhgfdert",
+    "fallback_emoji": "☕",
+    "custom_emoji_id": "5425042430745397139"
+  },
+  "coffee_pouring": {
+    "title": "دانه قهوه در حال ریختن",
+    "category": "animation",
+    "set_name": "JellySweets",
+    "fallback_emoji": "☕️",
+    "custom_emoji_id": "5296261422672525277"
+  },
+  "coffee_cluster": {
+    "title": "دانه قهوه یک‌دسته",
+    "category": "branding",
+    "set_name": "mixvintage",
+    "fallback_emoji": "✨",
+    "custom_emoji_id": "5048825264373498992"
+  },
+  "badge_blue_rotating": {
+    "title": "تیک آبی چرخشی",
+    "category": "status",
+    "set_name": "Statusvideobytaraxd",
+    "fallback_emoji": "💙",
+    "custom_emoji_id": "6104631352190043951"
+  },
+  "verify_green_animated": {
+    "title": "تیک سبز متحرک",
+    "category": "payment_approved",
+    "set_name": "Borzyy_by_fStikBot",
+    "fallback_emoji": "💳",
+    "custom_emoji_id": "5931311490307986699"
+  },
+  "discount_20": {
+    "title": "تخفیف ۲۰ درصد",
+    "category": "promotion",
+    "set_name": "Happy_new2025",
+    "fallback_emoji": "🤑",
+    "custom_emoji_id": "5373064599090255697"
+  },
+  "cart_purchase": {
+    "title": "استیکر خرید",
+    "category": "checkout",
+    "set_name": "iranNewz",
+    "fallback_emoji": "💸",
+    "custom_emoji_id": "5839260144902344766"
+  },
+  "promo_banner": {
+    "title": "متن تخفیف ویژه",
+    "category": "campaign",
+    "set_name": "iranNewz",
+    "fallback_emoji": "📉",
+    "custom_emoji_id": "5839200234403533703"
+  }
+}
