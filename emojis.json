@@ -89,5 +89,12 @@
     "set_name": "KorysnostiDevicesIcons",
     "fallback_emoji": "📄",
     "custom_emoji_id": "5431420628978641216"
+  },
+  "support_persian_animated": {
+    "title": "استیکر متحرک پشتیبانی با متن فارسی",
+    "category": "support",
+    "set_name": "propiycom",
+    "fallback_emoji": "💵",
+    "custom_emoji_id": "5958416857114350105"
   }
 }
