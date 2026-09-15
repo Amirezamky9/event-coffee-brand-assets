@@ -82,5 +82,12 @@
     "set_name": "NewsEmoji",
     "fallback_emoji": "🗑",
     "custom_emoji_id": "5445267414562389170"
+  },
+  "search_animated": {
+    "title": "جستجو / سرچ کاتالوگ (متحرک)",
+    "category": "navigation",
+    "set_name": "KorysnostiDevicesIcons",
+    "fallback_emoji": "📄",
+    "custom_emoji_id": "5431420628978641216"
   }
 }
