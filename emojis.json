@@ -75,5 +75,12 @@
     "set_name": "Mega_Logo",
     "fallback_emoji": "🌐",
     "custom_emoji_id": "5384234065270433395"
+  },
+  "trash_animated": {
+    "title": "سطل آشغال (حذف / پاک کردن - متحرک)",
+    "category": "actions",
+    "set_name": "NewsEmoji",
+    "fallback_emoji": "🗑",
+    "custom_emoji_id": "5445267414562389170"
   }
 }
