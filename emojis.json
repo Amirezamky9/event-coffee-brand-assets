@@ -61,5 +61,19 @@
     "set_name": "iranNewz",
     "fallback_emoji": "📉",
     "custom_emoji_id": "5839200234403533703"
+  },
+  "instagram_round": {
+    "title": "لوگو اینستاگرام گرد",
+    "category": "social_links",
+    "set_name": "LogoandDesign",
+    "fallback_emoji": "🟣",
+    "custom_emoji_id": "5375401795738682827"
+  },
+  "instagram_pointer_animated": {
+    "title": "آیکون اینستاگرام با اشاره‌گر به راست (متحرک)",
+    "category": "social_links",
+    "set_name": "Mega_Logo",
+    "fallback_emoji": "🌐",
+    "custom_emoji_id": "5384234065270433395"
   }
 }
